@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5" type="plugin" group="quickicon">
+	<name>plg_quickicon_bps_quickicon</name>
+	<author>Matthijs Alles</author>
+	<creationDate>Aug 2013</creationDate>
+	<copyright>Copyright (C) 2013 Bixie. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later</license>
+	<authorEmail>admin@bixie.nl</authorEmail>
+	<authorUrl>www.bixie.nl</authorUrl>
+	<version>1.0.0</version>
+	<description>PLG_QUICKICON_BPS_QUICKICON_XML_DESCRIPTION</description>
+	<files>
+		<filename plugin="bps_quickicon">bps_quickicon.php</filename>
+		<filename>index.html</filename>
+	</files>
+	<languages>
+		<language tag="nl-NL">language/nl-NL/nl-NL.plg_quickicon_bps_quickicon.ini</language>
+		<language tag="nl-NL">language/nl-NL/nl-NL.plg_quickicon_bps_quickicon.sys.ini</language>
+	</languages>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field name="context"
+					type="text"
+					default="mod_quickicon"
+					description="PLG_QUICKICON_BPS_QUICKICON_GROUP_DESC"
+					label="PLG_QUICKICON_BPS_QUICKICON_GROUP_LABEL"
+				/>
+			</fieldset>
+		</fields>
+	</config>
+</extension>
