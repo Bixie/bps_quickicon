@@ -9,8 +9,10 @@
 	<authorUrl>www.bixie.nl</authorUrl>
 	<version>1.0.0</version>
 	<description>PLG_QUICKICON_BPS_QUICKICON_XML_DESCRIPTION</description>
+	<scriptfile>install.script.php</scriptfile>
 	<files>
 		<filename plugin="bps_quickicon">bps_quickicon.php</filename>
+		<filename>install.script.php</filename>
 		<filename>index.html</filename>
 	</files>
 	<languages>
